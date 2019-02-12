@@ -1,0 +1,53 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.header {
+    padding: 10px;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+}
+.content {
+    background-color: rgb(223, 195, 155);
+    padding: 20px;
+    box-shadow: 5px 5px 10px;
+}
+
+.portpic {
+    float: left;
+    height: 15rem;
+    width: 20rem;
+    margin: 35px 15px 10px 15px;
+    box-shadow: 5px 10px black;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(84, 84, 85);
+    text-align: justify;
+}
+
+#social {
+    right: 150;
+    background-color: rgb(223, 195, 155);
+    padding: 20px;
+    box-shadow: 5px 5px 10px;
+    height: 20rem;
+    width: 10rem;
+    text-align: center;
+    position: fixed;
+}
+
+.social-image {
+    width: 5rem;
+    height: 5rem;
+}
+
+#portfolio {
+    color: black;
+    text-align: center;
+}
+

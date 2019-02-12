@@ -2,28 +2,32 @@
 <html lang="en-us">
 <head>
     <meta charset="utf-8" />
+    <link rel="shortcut icon" href="assets/images/head.ico"/>
     <title>Diego F Montealegre Silva</title>
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body class="card-body">
+<body >
 
-    <div class="container card-header ">
+    <div class="container-fluid navigation-container bg-secondary header" style="z-index: 1;">
 
         <div class="row">
         
-            <div class="col-4 nav text-white bg-info justify-content-center">
-                <h3>Diego F Montealegre Silva</h3>
+            <div class="col-2"></div>
+            <div class="col-3 nav text-white justify-content-center" style >
+                <h3 style="font-family: 'Anton', sans-serif">Diego F Montealegre Silva</h3>
             </div>
-            <div class="col-5"></div>
-            <div class="col-1 justify-content-end">
-                <h6><a href="index.html" class="nav-link active">About_me</a></h6>
+            <div class="col-2"></div>
+            <div class="col-md-auto">
+                <h6><a href="#about" class="nav-link">About me</a></h6>
             </div>
                 
-            <div class="col-1 justify-content-end">
-                <h6><a href="portfolio.html" class="nav-link active">Portfolio</a></h6>
+            <div class="col-md-auto">
+                <h6><a href="#portfolio" class="nav-link active">Portfolio</a></h6>
             </div>
 
-            <div class="col-1 justify-content-end">
+            <div class="col-md-auto">
                 <h6><a href="contact.html" class="nav-link active">Contact</a></h6>
             </div>
     
@@ -34,48 +38,175 @@
 
     <br>
 
-    <div class="container">
+    <div></div>
 
-        <h1>About Me</h1>
+    <div class="container" id="about">
 
-        <div class="row"></div>
+        <br>
 
         <div class="row">
 
-        <div class="col-3">
-            <img src="assets/images/pereira.jpg"></img> 
-        </div>
+        <div class="col-9 rounded content">
 
-        <div class="col-9">
-        <p class="text-justify">Colombian since 29 years ago, Petroleum Engineer from Universidad Nacional de Colombia, 
-            living in Chicago three years ago. I really enjoy technology, I remember when I was a child
-            how my father had a computer in his house and how the curiosity was into me.</p>
+        <img src="assets/images/portfolio.jpg" class="portpic img-fluid"></img> 
 
-        <p class="text-justify">I have lived in many places in Colombia, my favorite is Medellin because  is a big town
-            where the culture in people is very genreous. I find in Chicago the same human behavior 
+        <h1 style="text-align: center;" >About Me</h1>
+
+        <hr>
+
+        <p>I am an enthusiastic Colombian since 1989, studying now full stack web development in 
+            Northwestern University in Chicago. Petroleum Engineer from Universidad Nacional de Colombia, graduated in 2014,
+            living in Chicago three years ago. Programming has been an interesting topic in my life creating a curiosity since
+            I discovered in college studying my bachellor in engineer. Nowadays I am learning every day, improving my knowledge
+            and expecting to find a good way to use it in my professional life as a web developer.
+        </p>
+     
+        <p>I have lived in many places in Colombia, my favorite is Medellin because  is a big town
+            where the people's culture is very genreous. I find in Chicago the same human behavior 
             that I found in Medellin, is for that I feel I am in home.
         </p>
 
-        <p class="text-justify">I was raised with my mom and my brother. Frecuently we were to my father house to share time
-            with my other sibblings. All we shared time with video games, between all we I was the better. 
+        <p>I was raised with my mom and my brother. Frecuently we were to my father house to share time
+            with my sibblings. All we shared time with video games, between all we I was the better. 
             Since there, I had been interested to develop my skills with technology.
         </p>
+
         </div>
+
+        <div class="col-1"></div>
+
+        <div class="col-2" id="social">
+
+            <h5>Connect with me</h5>
+
+            <hr>
+
+            <a href="https://github.com/didachos24"><img src="assets/images/github.svg" class="social-image img-fluid"></a>
+
+            <br>
+            <br>
+
+            <a href="https://www.linkedin.com/in/diego-francisco-montealegre-silva-a171b352/"><img src="assets/images/linkedin.svg" class="social-image img-fluid"></a>
 
         </div>
 
     </div>
 
     <br>
+    <br>
 
     <div class="container">
+
+        <div class="row">
+            <div class="col-9 rounded content">
+                <h1 id="portfolio">Portfolio</h1>
+
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-12">
+
+                            <a href="https://sheimagh.github.io/Graphic-Savvy/index.html"><img src="assets/images/jaunt.png" class="portpic img-fluid" ></img></a>
+
+                            <h3 id="portfolio">Jaunt</h3>
+
+                            <hr>
+
+                            <p>Working as team we develop our first project with partners. I coded the weather display for next five using API's  
+                                to mantain forecast updated.
+                            </p>
+
+                        </div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="col-12">
+
+                            <a href="https://didachos24.github.io/TrainSchedule/"><img src="assets/images/train.png" class="portpic img-fluid"  style="float: right"></img></a>
+
+                            <h3 id="portfolio">Train Schedule</h3>
+
+                            <hr>
+
+                            <p>In this project I use and database from Firebase to keep updated arrival times for diferent trains submited
+                                previously. Also, any user can push a new train in the bottom form, the next arrival time will be calculated
+                                automaticly, saving information in database to use any future time.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+                            <div class="col-12">
+    
+                                <a href="https://didachos24.github.io/GIPHY/"><img src="assets/images/gif.png" class="portpic img-fluid"></img></a>
+    
+                                <h3 id="portfolio">Gifstastic!</h3>
+    
+                                <hr>
+    
+                                <p>Using jQuery user can add button of sports to call gifs from APIs. Gifs can be started by clicking over these.
+                                </p>
+    
+                            </div>
+                        </div>    
+
+
+                    <div class="row">
+                        <div class="col-12">
+
+                            <a href="https://didachos24.github.io/unit-4-game/"><img src="assets/images/dbz.png" class="portpic img-fluid" style="float: right"></img></a>
+
+                            <h3 id="portfolio">RPG Game</h3>
+
+                            <hr>
+
+                            <p>Arcade game based in Dragon Ball Z where user choose the character and the enemy for the duel. This was my first 
+                                time using jQuery as code method.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+                            <div class="col-12">
+    
+                                <a href="https://didachos24.github.io/Word-Guess-Game/"><img src="assets/images/guess.png" class="portpic img-fluid"></img></a>
+    
+                                <h3 id="portfolio">Word Guess Game</h3>
+    
+                                <hr>
+    
+                                <p>To win, user has to guess the letters of famous Colombian cities in five or less tries. This was my first 
+                                    interaction using Javascript.
+                                </p>
+    
+                            </div>
+                        </div>
+        
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-9 rounded content">
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="container-fluid navigation-container bg-secondary">
         <div class="row">
             <span class="border-top bg-info"></span>
             <div class="col-12 text-white bg-secondary border-top">
                 <h5>Copyright©</h5>
             </div>
         </div>
-    </div>
+    </div> -->
 
 </body>
 </html>
