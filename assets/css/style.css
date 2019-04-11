@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/background1.jpg");
     background-size: 100%;
     background-attachment: fixed;
 }
@@ -11,7 +11,7 @@ body {
     position: sticky;
 }
 .content {
-    background-color: rgb(223, 195, 155);
+    /* background-color: rgb(223, 195, 155); */
     padding: 20px;
     box-shadow: 5px 5px 10px;
 }
@@ -26,13 +26,14 @@ body {
 
 p {
     font-size: 20px;
-    color: rgb(84, 84, 85);
+    /* color: rgb(84, 84, 85); */
+    color: white;
     text-align: justify;
 }
 
 #social {
     right: 150;
-    background-color: rgb(223, 195, 155);
+    /* background-color: rgb(223, 195, 155); */
     padding: 20px;
     box-shadow: 5px 5px 10px;
     height: 20rem;
@@ -47,10 +48,20 @@ p {
 }
 
 #portfolio {
-    color: black;
+    color: white;
     text-align: center;
 }
 
 #contact {
+    text-align: center
+}
+
+h1, h5 {
+    color: white;
+    text-align: justify
+}
+
+h5 {
+    color: white;
     text-align: center
 }
