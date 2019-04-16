@@ -17,7 +17,7 @@
 <body >
 
 
-    <div class="container-fluid navigation-container bg-ligth header">
+    <!-- <div class="container-fluid navigation-container bg-ligth header">
 
         <div class="row">
             <div class="col-3 nav  justify-content-center"></div>
@@ -45,7 +45,16 @@
         
         </div>
 
-    </div> 
+    </div>  -->
+
+    <nav class="navbar sticky-top navbar-light bg-light">
+        <div class="container">
+            <div class="col-2"></div>
+            <div class="col-9">
+                    <a class="navbar-brand" href="#about"><h1>Diego F Montealegre Silva</h1></a>
+            </div>
+        </div>
+    </nav>
 
     <br>
 
@@ -55,14 +64,15 @@
 
         <div class="row">
 
-        <div class="col-11 rounded content">
+        <div class="col-1"></div>
 
-            <img src="assets/images/portfolio.jpg" class="img-fluid portpic" style="border-radius: 50%"></img> 
+        <div class="col-10">
+
+            <img src="assets/images/portfolio.jpg" class="img-fluid portpic" style="border-radius: 40%"></img> 
 
             <br>
 
-            <h1 style="text-align: center;" >About</h1>
-
+            
             <hr>
 
             <p>I am an enthusiastic Colombian since 1989, studying now full stack web development in 
@@ -101,13 +111,22 @@
     <br>
 <!-- =================== PORTFOLIO CAROUSEL========================== -->
 
+<nav class="navbar sticky-top navbar-light bg-light">
+    <div class="container">
+        <div class="col-2"></div>
+        <div class="col-9">
+                <a class="navbar-brand" href="#portfolio"><h1>Portfolio</h1></a>
+        </div>
+    </div>
+</nav>
+<hr>
+<br>
 
-<div class="container">
-    <hr>
-    <h1 id="portfolio">Portfolio</h1>
-    <br>
-    
-    <div class="col-9">
+<div class="container" id="portfolio">
+    <div class="row">
+            <div class="col-2"></div>
+
+    <div class="col-8">
 
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -145,7 +164,7 @@
                                     <h3 id="portfolio">Store App (Node.js) <a href="https://github.com/didachos24/storeDb"><span style="color: black"><I class="fab fa-github-alt fa-lg" data-micron="pop"></i></span></a></h3>
 
                                     <p>This app combines Node.js and MySQL to simulate an store database that allows user manipulate the stock. For instructions to operate the 
-                                        refer to <strong><a href="https://github.com/didachos24/storeDb/blob/master/README.md" style="color: white">README</a></strong>.</p>
+                                        refer to <strong><a href="https://github.com/didachos24/storeDb/blob/master/README.md" style="color: black">README</a></strong>.</p>
                                 </div>
                         </div>
                 </div>
@@ -207,6 +226,9 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>    
+</div>
+</div>
+
 
 
 
@@ -215,12 +237,20 @@
     <br> 
     <br>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-9 ">
+    <nav class="navbar sticky-top navbar-light bg-light">
+        <div class="container">
+            <div class="col-2"></div>
+            <div class="col-9">
+                    <a class="navbar-brand" href="#contact"><h1>Contact me</h1></a>
+            </div>
+        </div>
+    </nav>
+    <hr>
 
-                <h1 id="contact">Contact me</h1>
-                <hr>
+    <div class="container" id="contact">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
 
                 <form>
 

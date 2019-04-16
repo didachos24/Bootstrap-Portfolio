@@ -5,31 +5,27 @@
     position: sticky;
     z-index: 1; 
     box-shadow: 0px 0px 1px 0px;
-    background-color: aliceblue
+    background-color: white
 }
 .content {
-    /* background-color: rgb(223, 195, 155); */
     padding: 20px;
-    /* box-shadow: 5px 5px 10px; */
 }
 
 .portpic {
-    /* float: left; */
     height: 15rem;
     width: 20rem;
     margin: auto;
-    /* box-shadow: 5px 10px black; */
     border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%)
     }
 
 p {
     font-size: 20px;
-    /* color: rgb(84, 84, 85); */
-    /* color: white; */
     text-align: justify;
 }
 
@@ -37,7 +33,6 @@ p {
     top: 40%;
     right: 50px;
     padding: 20px;
-    /* box-shadow: 5px 5px 10px; */
     height: 20rem;
     width: 10rem;
     text-align: center;
@@ -58,12 +53,12 @@ p {
 }
 
 h1, h5 {
-    /* color: white; */
     text-align: justify
 }
 
-h5 {
-    /* color: white; */
-    text-align: center
+.stickynav {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    text-align: justify
 }
-
