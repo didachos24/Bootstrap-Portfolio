@@ -1,41 +1,43 @@
-body {
-    background-image: url("../images/background2.jpg");
-    background-size: 100%;
-    background-attachment: fixed;
-}
-
 .header {
     padding: 10px;
     top: 0;
     position: -webkit-sticky;
     position: sticky;
+    z-index: 1; 
+    box-shadow: 0px 0px 1px 0px;
+    background-color: aliceblue
 }
 .content {
     /* background-color: rgb(223, 195, 155); */
     padding: 20px;
-    box-shadow: 5px 5px 10px;
+    /* box-shadow: 5px 5px 10px; */
 }
 
 .portpic {
-    float: left;
+    /* float: left; */
     height: 15rem;
     width: 20rem;
-    margin: 35px 15px 10px 15px;
-    box-shadow: 5px 10px black;
-}
+    margin: auto;
+    /* box-shadow: 5px 10px black; */
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    }
 
 p {
     font-size: 20px;
     /* color: rgb(84, 84, 85); */
-    color: white;
+    /* color: white; */
     text-align: justify;
 }
 
 #social {
-    right: 150;
-    /* background-color: rgb(223, 195, 155); */
+    top: 40%;
+    right: 50px;
     padding: 20px;
-    box-shadow: 5px 5px 10px;
+    /* box-shadow: 5px 5px 10px; */
     height: 20rem;
     width: 10rem;
     text-align: center;
@@ -48,7 +50,6 @@ p {
 }
 
 #portfolio {
-    color: white;
     text-align: center;
 }
 
@@ -57,12 +58,12 @@ p {
 }
 
 h1, h5 {
-    color: white;
+    /* color: white; */
     text-align: justify
 }
 
 h5 {
-    color: white;
+    /* color: white; */
     text-align: center
 }
 
