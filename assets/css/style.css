@@ -6,8 +6,7 @@
     height: 20rem;
     width: 30rem;
     margin: auto;
-    border-radius: 10%;
-    display: block;
+     display: block;
     margin-left: auto;
     margin-right: auto;
     -webkit-filter: grayscale(100%);
@@ -21,14 +20,7 @@ p {
 }
 
 #social {
-    top: 40%;
-    right: 50px;
-    padding: 20px;
-    height: 20rem;
-    width: 10rem;
-    text-align: center;
-    position: fixed;
-    z-index: 2;
+    text-align: justify;
 }
 
 .social-image {
@@ -37,14 +29,15 @@ p {
     z-index: 1;
 }
 
-#portfolio {
-    text-align: center;
-}
-
 #contact {
     text-align: center
 }
 
-h1, h5 {
+h1, h5, h4 {
     text-align: justify
+}
+
+#nav {
+    /* text-align: center; */
+    z-index: 1;
 }
